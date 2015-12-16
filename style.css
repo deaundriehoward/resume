@@ -1,0 +1,96 @@
+/*--------------- Basic Setup -----------*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+html {
+    background-color: #eee;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%:;
+    text-rendering: optimizeLegibility;
+}
+
+body:: -webkit-scrollbar {
+	display: none;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0), rgba(0, 0, 255, 0.75), rgba(0, 0, 0, 0));
+}
+hr.style-three {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/*--------------- Reusable Components -----------*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.box {
+    padding: 1%;
+}
+
+/* ---- Heading Section ----*/
+.jumbotron {
+ 	background-color: #3498DB;
+ 	background-image: url('img/sunset.jpeg');
+ 	background-attachment: fixed;
+ 	background-position: cover;
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+}
+/* ---- About Section ----*/
+.about .col-md-4 {
+	border-right: 1px solid #3498DB;
+}
+}
+.thumbnail {
+	border: none;
+	text-decoration: none;
+}
+/* ---- Skills Section ----*/
+
+.skills h2 {
+	padding: 0;
+	margin-bottom: -15px;
+	font-weight: 700;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.progress {
+	margin-bottom: -5px;
+}
+
+/* ---- Experience Section ----*/
+.experience {
+	background-color: #196090;
+	color: #eee;
+	font-size: 400;
+	font-family: 'Lato'
+}
+.experience span {
+	background-color: #5faee3;
+	border-radius: 5px 5px 5px 5px;
+	color: #000;
+	width: 15em;
+	height: 200px;
+}
+/* ---- Education Section ----*/
