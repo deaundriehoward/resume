@@ -50,11 +50,19 @@ hr.style-three {
 /* ---- Heading Section ----*/
 .jumbotron {
  	background-color: #3498DB;
- 	background-image: url('img/sunset.jpeg');
+ 	background-image: url('img/create.jpeg');
  	background-attachment: fixed;
  	background-position: cover;
  	background-size: 100%;
  	background-repeat: no-repeat;
+ 	color: #eee;
+}
+.jumbotron h1 {
+	font-family: Arenq;
+	text-align: center;
+}
+.jumbotron p {
+	font-family: Slim Joe;
 }
 /* ---- About Section ----*/
 .about .col-md-4 {
@@ -73,8 +81,11 @@ hr.style-three {
 	font-weight: 700;
 	font-size: 24px;
 	font-weight: 700;
+	font-family: Arenq;
 }
-
+.skills {
+	font-family: 'Late';
+}
 .progress {
 	margin-bottom: -5px;
 }
@@ -83,15 +94,17 @@ hr.style-three {
 .experience {
 	background-color: #337Ab7;
 	color: #eee;
+}
+.experience h1 {
 	font-size: 400;
-	font-family: 'Latogit remote add origin https://github.com/deaundriehoward/deaundrie.github.io-resume.git
-git push -u origin master'
+	font-family: Arenq;
 }
 .experience span {
-	background-color: #5faee3;
-	border-radius: 5px 5px 5px 5px;
 	color: #000;
 	width: 15em;
 	height: 200px;
+}
+.experience h3 {
+
 }
 /* ---- Education Section ----*/
