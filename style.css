@@ -55,6 +55,7 @@ hr.style-three {
  	background-position: cover;
  	background-size: 100%;
  	background-repeat: no-repeat;
+ 	height: 30rem;
  	color: #eee;
 }
 .jumbotron h1 {
